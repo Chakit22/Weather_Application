@@ -6,9 +6,8 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape'); /*Produces a new image each time based
-    on the text written after the base URL */
-    background-size:     cover;                      /* <This resizes the background Image based on the screen size. */
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size:     cover;               
     background-repeat:   no-repeat;
     background-position: center center;
     font-size: 115%;
@@ -17,11 +16,10 @@ body {
 .card {
     background: #000000d0;
     color: white;
-    padding: 2em;  /*When only one parameter is written it is
-    top down padding.*/
+    padding: 2em;  
     border-radius: 30px;
     width: 100%;
-    max-width: 420px;  /*Will help us in taking max of 420 px width not more than that, even on a small screen*/
+    max-width: 420px; 
     margin: 1em;
 }
 
@@ -33,9 +31,7 @@ body {
 
 button {
     margin: 0.5em; 
-    border-radius: 50%;  /*50% specifies that the border
-    radius must be half of the height so that it's perfectly
-    oval.*/
+    border-radius: 50%;  
     border: none;
     height: 46px;
     width: 46px;
@@ -43,31 +39,23 @@ button {
     background: #7c7c7c2b;
     color: white;
     cursor: pointer;
-    transition: 0.2s ease-in-out; /*0.2s specifies that when we 
-    hiver over the button it takes 0.2s to apply the attributes
-    mentioned in the button:hover and 0.2s to get back
-    to original state*/
+    transition: 0.2s ease-in-out;
   }
   
   .search-bar {
     border: none;
     outline: none;
-    padding: 0.5em 1em;  /*1em specifies the left and right padding
-    while 0.4em specifies the top down padding.*/
-    border-radius: 24px; /*Half of the height approx 46/2*/
+    padding: 0.5em 1em;  
+    border-radius: 24px; 
     background: #7c7c7c2b;
-    color: white; /*This specifies the entered text's
-    colour to be white*/
-    font-family: inherit; /*This inherites the properties
-    of the family from the parent*/
-    font-size: 105%;  /*Denotes the size of the text written
-    in the search bar.*/
+    color: white; 
+    font-family: inherit; 
+    font-size: 105%; 
     width: calc(100% - 100px);
   }
   
   button:hover {
-    background: #7c7c7c6b; /*displays this colour when 
-    we hover over it*/
+    background: #7c7c7c6b; 
   }
 
   h1.temp {
@@ -81,8 +69,7 @@ button {
   }
 
   .description {
-    text-transform: capitalize; /*This function basically whenever an input is entered this will convert the first letters of it
-    to Capital Letter's*/
+    text-transform: capitalize; 
     margin-left: 1px;
   }
 
