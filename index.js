@@ -1,5 +1,5 @@
 let weather = {
-    apiKey: "API KEY GOES HERE",
+    apiKey: process.env.WEATHER_API,
     
     fetchWeather: function(city) {  
         fetch(
@@ -43,7 +43,7 @@ let weather = {
 
 let geocode = {
     reverseGeocode: function (latitude, longitude) {
-      var apikey = "API KEY GOES HERE";
+      var apikey = process.env.GEOLOCATION_API;
   
       var api_url = "https://api.opencagedata.com/geocode/v1/json";
   
