@@ -1,8 +1,8 @@
 ## Weather Live
 
-1. A Weather forecast Application to track weather forecasts and current conditions in real-time.<br/>
-2. Used HTML and CSS to configure the UI and used Javascript at the backend with an OpenWeather API used to fetch Weather forecast in real time.<br/>
-3. Used a GeoCoding API to fetch the user's current location in real-time and display the respective weather information.<br/><br/>
+1. Developed a Weather Forecast Application for real-time tracking of weather forecasts and current conditions.
+2. Configured the UI using HTML and CSS, while employing JavaScript at the backend to fetch real-time weather forecasts through the OpenWeather API.
+3. Integrated a GeoCoding API to dynamically retrieve the user's current location, providing corresponding real-time weather information.
 
 ## Landing Page
-![Web App](https://github.com/ChakitBhandari/Weather_Application/blob/main/WEBAPP.png)
+![Web App](https://github.com/ChakitBhandari/Weather_Application/blob/main/assets/WEBAPP.png)
