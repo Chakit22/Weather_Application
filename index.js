@@ -43,7 +43,7 @@ let weather = {
 
 let geocode = {
     reverseGeocode: function (latitude, longitude) {
-      var apikey = process.env.GEOLOCATION_API;
+      var apikey = "API key goes here";
   
       var api_url = "https://api.opencagedata.com/geocode/v1/json";
   
